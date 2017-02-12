@@ -27,6 +27,13 @@ namespace WeConnect.Controllers
             return View();
         }
 
+        public IActionResult Help()
+        {
+            ViewData["Message"] = "Your help page.";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
